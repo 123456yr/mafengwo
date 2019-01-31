@@ -1,0 +1,54 @@
+.sales-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    .sales-desc{
+        float: right;
+        margin-top: 30px;
+        .s-d-list{
+            float: left;
+            width: 135px;
+            padding-left: 45px;
+            margin-left: 20px; 
+            line-height: 20px;
+            
+            span{
+                float: left;
+                width: 36px;
+                height: 36px;
+                margin-left: -45px;
+                margin-top: 5px;
+                background: url('/images/global-icon4.png') no-repeat;
+            }
+            .icon1{
+                background-position: -30px 0;
+            }
+            .icon2{
+                background-position: -30px -40px;
+            }
+            .icon3{
+                background-position: -30px -80px;
+            }
+            
+            .s-d-item{
+                h3{
+                    font-size: 14px;
+                    color: #111;
+                    
+                }
+                p{
+                    color: #666;
+                }
+            }
+        }
+         .s-d-list+.s-d-list{
+             margin-left: 80px;
+         }
+    }
+    .sales-list1{
+        .list-item:nth-child(n+5){
+            display: none;
+        }
+    }
+}

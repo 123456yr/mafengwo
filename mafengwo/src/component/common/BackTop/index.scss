@@ -1,0 +1,35 @@
+
+
+
+.backtop-box{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: -568px;
+    border: 2px solid #999;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    z-index: 10;
+    span{
+        display: inline-block;
+        width: 21px;
+        height: 12px;
+       
+    }
+    .backtop-icon{
+         background: url('/images/header-sprites9 (1).png') no-repeat -60px -165px;
+    }
+}
+@media screen and (max-width:1025px){
+    .backtop-box{
+        right: 0;
+        margin-right: 0;
+        position: fixed;
+        bottom: 40px;
+        
+    }
+}

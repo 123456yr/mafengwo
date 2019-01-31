@@ -1,0 +1,87 @@
+{
+	"type": {
+	  "title": {"name": "热门目的地","class":"country"},
+	  "address": ["国内", "港澳台", "日本", "东南亚", "南亚 西亚", "欧洲 美洲"],
+	  "country": [
+		{ "国内": [
+			{ "直辖市": ["北京", "上海", "重庆", "天津"]},
+			{ "云南": ["丽江", "大理", "昆明", "香格里拉"]},
+			{ "四川": ["城都", "九寨沟", "稻城", "色拉", "峨眉山", "牛背山", "若尔盖", "都江宴"]},
+			{ "浙江": ["杭州", "乌镇", "西塘", "青岛湖", "普罗山", "东极岛", "南浔"]},
+			{ "江苏":[ "苏州" ,"无锡", "扬州" ,"周庄", "常州" ,"连云港" ,"同里"]}
+		]},
+		{ "港澳台":[
+			{ "台湾": ["台北", "垦丁", "花莲", "高雄", "台中", "就分", "南投", "阿里山"]}
+		]},
+		{ "日本":[
+			{ "日本": ["东京", "大阪", "京豆", "贝道海", "想跟", "古屋", "神户", "函馆"]}
+		]},
+		{ "东南亚":[
+			{ "泰国": ["普吉岛", "清迈", "曼谷", "苏梅岛", "甲米", "芭提雅", "象岛"]},
+			{ "新加坡 印尼": ["新加坡", "巴厘岛", "民丹岛"]},
+			{ "马来西亚": ["沙巴", "山本那", "吉隆坡", "兰卡威"]},
+			{ "泰国": ["普吉岛", "清迈", "曼谷", "苏梅岛", "甲米", "芭提雅", "象岛"]},
+			{ "新加坡 印尼": ["新加坡", "巴厘岛", "民丹岛"]},
+			{ "马来西亚": ["沙巴", "山本那", "吉隆坡", "兰卡威"]}
+		]},
+		{ "南亚 西亚":[
+			{ "马尔代夫": ["普吉岛", "清迈", "曼谷", "苏梅岛", "甲米", "芭提雅", "象岛"]},
+			{ "阿联酋 伊朗": ["新加坡", "巴厘岛", "民丹岛"]},
+			{ "斯里兰卡": ["沙巴", "山本那", "吉隆坡", "兰卡威"]}
+		]},
+		{ "欧洲 美洲":[
+			{ "美国": ["普吉岛", "清迈", "曼谷", "苏梅岛", "甲米", "芭提雅", "象岛"]},
+			{ "英国 爱尔兰": ["新加坡", "巴厘岛", "民丹岛"]},
+			{ "意大利": ["沙巴", "山本那", "吉隆坡", "兰卡威"]},
+			{ "美国": ["普吉岛", "清迈", "曼谷", "苏梅岛", "甲米", "芭提雅", "象岛"]},
+			{ "英国 爱尔兰": ["新加坡", "巴厘岛", "民丹岛"]},
+			{ "意大利": ["沙巴", "山本那", "吉隆坡", "兰卡威"]}
+		]}
+	  ],
+	  "title2":{"name": "主题精选","class":"theme"},
+	  "theme":["全面适宜","季节","出行方式","节假日"],
+	  "picture":[
+	  	{ "全年适宜": [
+	  		{"src": "wKgBs1gAi8mAK_8eACErk-sdm7899.jpeg", "desc": "徒步"},
+	  		{"src": "wKgB6lSrwS6ANNM-AAHJldK1O1s82.jpeg", "desc": "芈月"},
+	  		{"src": "wKgBpVXQYiyALbdLAAVaO6591W802.jpeg", "desc": "自驾"},
+	  		{"src": "wKgBpVYTyVOANQpnAAqOoQQfTZQ40.jpeg", "desc": "游轮"},
+	  		{"src": "wKgB6lQnxZqAfMxIAASBo8KcOEc67.jpeg", "desc": "带父母"},
+	  		{"src": "wKgB6lTwOY2ASPZqAA1MzaAVrZ053.jpeg", "desc": "亲子游"},
+	  		{"src": "wKgBEFr1c2qAS0RNABVZ2YCSKNs79.jpeg", "desc": "闺蜜游"},
+	  		{"src": "wKgBpVWCVsGALuHDAD6a6QDkLig904.png", "desc": "哈哈"}
+	  	]},
+	  	{ "季节": [
+	  		{"src": "wKgB6lTwOY2ASPZqAA1MzaAVrZ053.jpeg", "desc": "亲子游"},
+	  		{"src": "wKgBEFr1c2qAS0RNABVZ2YCSKNs79.jpeg", "desc": "闺蜜游"},
+	  		{"src": "wKgBpVWCVsGALuHDAD6a6QDkLig904.png", "desc": "哈哈"},
+	  		{"src": "wKgBs1gAi8mAK_8eACErk-sdm7899.jpeg", "desc": "徒步"},
+	  		{"src": "wKgB6lSrwS6ANNM-AAHJldK1O1s82.jpeg", "desc": "芈月"},
+	  		{"src": "wKgBpVXQYiyALbdLAAVaO6591W802.jpeg", "desc": "自驾"},
+	  		{"src": "wKgBpVYTyVOANQpnAAqOoQQfTZQ40.jpeg", "desc": "游轮"},
+	  		{"src": "wKgB6lQnxZqAfMxIAASBo8KcOEc67.jpeg", "desc": "带父母"}
+	  	]},
+	  	{ "出行方式": [
+	  		{"src": "wKgB6lQnxZqAfMxIAASBo8KcOEc67.jpeg", "desc": "带父母"},
+	  		{"src": "wKgB6lTwOY2ASPZqAA1MzaAVrZ053.jpeg", "desc": "亲子游"},
+	  		{"src": "wKgBEFr1c2qAS0RNABVZ2YCSKNs79.jpeg", "desc": "闺蜜游"},
+	  		{"src": "wKgBpVWCVsGALuHDAD6a6QDkLig904.png", "desc": "哈哈"},
+	  		{"src": "wKgBs1gAi8mAK_8eACErk-sdm7899.jpeg", "desc": "徒步"},
+	  		{"src": "wKgB6lSrwS6ANNM-AAHJldK1O1s82.jpeg", "desc": "芈月"},
+	  		{"src": "wKgBpVXQYiyALbdLAAVaO6591W802.jpeg", "desc": "自驾"},
+	  		{"src": "wKgBpVYTyVOANQpnAAqOoQQfTZQ40.jpeg", "desc": "游轮"}
+	  	]},
+	  	{ "节假日": [
+	  		{"src": "wKgB6lSrwS6ANNM-AAHJldK1O1s82.jpeg", "desc": "芈月"},
+	  		{"src": "wKgBpVXQYiyALbdLAAVaO6591W802.jpeg", "desc": "自驾"},
+	  		{"src": "wKgBpVYTyVOANQpnAAqOoQQfTZQ40.jpeg", "desc": "游轮"},
+	  		{"src": "wKgBs1gAi8mAK_8eACErk-sdm7899.jpeg", "desc": "徒步"},
+	  		{"src": "wKgB6lQnxZqAfMxIAASBo8KcOEc67.jpeg", "desc": "带父母"},
+	  		{"src": "wKgB6lTwOY2ASPZqAA1MzaAVrZ053.jpeg", "desc": "亲子游"},
+	  		{"src": "wKgBEFr1c2qAS0RNABVZ2YCSKNs79.jpeg", "desc": "闺蜜游"},
+	  		{"src": "wKgBpVWCVsGALuHDAD6a6QDkLig904.png", "desc": "哈哈"}
+	  	]}
+	  ]
+	  	
+	}
+}

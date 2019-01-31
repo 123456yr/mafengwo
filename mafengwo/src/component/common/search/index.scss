@@ -1,0 +1,142 @@
+//        图片中的图表
+           .table-container{
+               background: rgba(0,0,0,0.8);
+               border-radius: 5px;
+               width: 518px;
+               position: absolute;
+               bottom: 54px;
+               left: 50%;
+               margin-left: -269px;
+               z-index: 5;
+               padding: 10px;
+                font-size: 14px;
+//             图标中的导航
+               .table-list{
+                  
+                   margin-bottom: 7px;
+                   ul{
+                       line-height: 26px;
+                       height: 26px;
+                       .tab-selected{
+                           span{
+                               background-position: -60px -140px ;
+                           }
+                       }
+                       li{
+                           float: left;
+                           margin-right: 20px;
+                           color: #fff;
+                           font-size: 14px;
+                            cursor: pointer;
+                           span{
+                               vertical-align: middle;
+                               display: inline-block;
+                               width: 16px;
+                               height: 16px;
+                               border-radius: 50%;
+                               margin: 0 5px 0 0;
+                               background: url('/images/header-sprites13.png') no-repeat;
+                               background-position: -60px -110px ;
+                           }
+                       }
+                   }
+               }
+//           图表中的输入框  和搜索
+  .table-searchbar{
+      height: 36px;
+      //s输入框
+      .table-wrapper{
+          float: left;
+          height: 36px;
+          color: #666;
+          .table-input{
+             
+              input{
+                  font-size: 14px;
+                  width: 444px;
+                  background: #fff;
+                  border-radius: 5px;
+                  padding: 0 10px 0 20px;
+                  line-height: 36px;
+                  
+              }
+          }
+      }
+    //搜索
+    .table-search{
+        float: left;
+        margin-left: 4px;
+        width: 40px;
+        
+        a{
+            height: 36px;
+            display: block;
+            border-radius: 5px ;
+            background: #FF9D00;
+            text-align: center;
+           
+            i{
+                margin-top: 6px;
+                vertical-align: top;
+                width: 24px;
+                height: 24px;
+                display: inline-block;
+                overflow: hidden;
+                background: url('/images/header-sprites13.png') no-repeat;
+                background-position: 0 -110px;
+            }
+        }
+    }  
+  }
+//            酒店样式
+  .search-hotel{
+      form{
+         float: left; 
+      }
+      
+      .table-input{
+          width: 210px;
+          overflow: hidden;
+          input{ width:190px;  }
+      }
+      .search-date{
+          background: #fff;
+          width: 130px;
+          float: left;
+          height: 36px;
+          margin-left: 2px;
+          color: #444;
+          position: relative;
+          input{
+              cursor: pointer;
+             font-size: 14px;
+             color: #444;
+             height: 36px;
+             width: 110px;
+             line-height: 36px; 
+             padding: 0 10px;
+             background: #fff;
+          }
+          
+          span{
+              display: inline-block;
+              width: 16px;
+              height: 16px;
+              background: url('/images/header-sprites13.png') no-repeat;
+              background-position: 0 -140px!important;
+              overflow: hidden;
+              position: absolute;
+              top: 10px;
+              right: 10px;
+          }
+      }
+//                因为大框有背景，放在input上看不到效果，放在大框上，overflow：hidden 将input上的角去掉
+          .search-date:last-child{
+              border-radius: 0 5px 5px 0;
+              overflow: hidden;
+          }
+      }
+      .hide{
+          display: none;
+      }
+   }

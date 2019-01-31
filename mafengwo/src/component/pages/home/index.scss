@@ -1,0 +1,125 @@
+
+.home-box{
+    .home-banner{
+        min-width: 1040px;
+        position: relative;
+        height: 100%;
+        background-color: #ccc;
+        margin-bottom: 20px;
+        .home-slider{
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+//          导航大图片
+          .home-ul{
+              position: relative;
+              li{
+                  height: 100%;
+                  position: absolute;
+                  top:0;
+                  right: 0;
+                  left: 0;
+                  bottom: 0;
+                  overflow: hidden;  
+                  
+                  .home-desc{
+                      position: absolute;
+                      top: 20px;
+                      left: 50%;
+                      margin-left: -500px;
+                      color: white;
+                      font-size: 20px;
+                      text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+                      min-width: 1000px;
+                      p{
+                          font-size: 20px;
+                          height: 30px;
+                          span{
+                            font-size: 30px;
+                        }
+                      }
+                       h3{
+                           height: 30px;
+                           font-size: 20px;
+                       } 
+                  }
+              }
+//            当图片加载不出来时，显示图片
+              li:before,li:after{
+                  content: '';
+                  z-index: -1;
+                  position:absolute;
+                  left: 50%;
+                  top: 50%;
+                  background: url('/images/loading-big.png') no-repeat;
+              }
+              li:before{
+                  width: 88px;
+                  height: 78px;
+                  margin: -39px 0 0 -44px;
+                  background-position: -200px 0;
+              }
+              li:after{
+                  width: 180px;
+                  height: 180px;
+                  margin: -90px 0 0 -90px;
+                  animation: loading-photo 1s ease 0s infinite normal running;
+                  -webkit-animation: loading-photo 1s ease infinite;
+              }
+          }
+//        右边导航小图片
+          .home-ol{
+              position: absolute;
+              right: 40px;
+              top: 45%;
+              margin-top: -170px;
+              z-index: 10;
+              li{
+                  width: 110px;
+                  height: 62px;
+                  margin-top: 6px;
+                  overflow: hidden;
+                  position: relative;
+                  cursor: pointer;
+              }
+              li:last-child{
+                  span{ border-radius: 0 0 5px 0}
+              }
+              .active{
+                  span{
+                      content: '';
+                      width: 106px;
+                      height: 58px;
+                      border: 2px solid #ff9d00;
+                      position: absolute;
+                      left: 0;
+                      bottom: 0;
+                      top: 0;
+                      right: 0;
+                      z-index: 13;
+                      overflow: hidden;
+                  }
+              }
+          }
+//        历历在目
+          .home-mu{
+              position: absolute;
+              top: 50%;
+              right: 40px;
+              width: 110px;
+              height: 35px;
+              margin-top: 160px;
+              background: url('/images/index-sprites9.png') no-repeat;
+              background-position: -60px -50px;
+              z-index: 13;
+          }
+        }
+        
+    }
+    .home-content{
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+

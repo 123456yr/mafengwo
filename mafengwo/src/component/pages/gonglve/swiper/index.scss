@@ -1,0 +1,27 @@
+.gl-swiper{
+    float: right;
+    .swiper-container{
+        width: 700px;
+        height: 340px;
+//      overflow: hidden;
+
+        .swiper-pagination{
+            width: auto;
+            bottom: 20px;
+            right: 20px;
+            left: auto;
+            
+            .swiper-pagination-bullet{
+                width: 20px;
+                height: 20px;
+                margin-left: 5px;
+                margin-right: 0;
+                background:url('/picture/scroll_s.png') no-repeat center 5px;
+                opacity: 1;
+            }
+            .swiper-pagination-bullet-active{
+                background:url('/picture/scroll_b.png') no-repeat 0 0;
+            }
+        }
+    }
+}

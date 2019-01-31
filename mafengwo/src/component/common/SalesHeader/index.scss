@@ -1,0 +1,46 @@
+.s-navs{
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+  
+   
+    .nav-cen{
+      margin-left: 195px;
+        li{
+            float: left;
+            font-size: 14px;
+            color: #666;
+            margin-right: 10px;
+            line-height: 40px;
+            a{
+                display:inline-block;
+                padding: 0 6px;
+            }
+            a:hover{
+                color: #ff9d00;
+            }
+            .active{
+                color: #ff9d00;
+                border-bottom: 3px solid #ff9d00;
+            }
+        }
+        li+li{
+            margin-left: 10px;
+            position:relative;
+        }
+        li+li:before{
+            content: '';
+            width: 2px;
+            height: 15px;
+            position: absolute;
+            top: 14px;
+            left: -10px;
+            background: #dedede;
+            
+        }
+    }
+}
+.sales-header{
+    margin-top: 58px;
+     margin-bottom: 10px;
+}

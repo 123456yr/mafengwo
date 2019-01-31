@@ -1,0 +1,73 @@
+.sales-swiper{
+    float: right;
+    width: 730px;
+    overflow: hidden;
+    position: relative;
+    height: 405px;
+        ul{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300%;
+            li{
+                width: 730px;
+                float: left;
+            }
+        }
+    .s-s-arrow{
+        display: none;
+        span{
+            background: rgba(255,255,255,0.3);
+            width: 40px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+             cursor: pointer;
+            i{
+                width: 10px;
+                height: 18px;
+                display: inline-block;
+                margin-top: 20px;
+                
+                overflow: hidden;
+                 background: url('/images/global-icon4.png') no-repeat ;
+            }
+        }
+        .s-a-left{
+            left: 0;
+            i{
+                margin-left: 10px;
+                background-position: -70px -90px;
+            }
+        }
+        .s-a-right{
+            right: 0;
+             i{
+                 margin-left: 18px;
+                background-position: -85px -90px;
+            }
+        }
+    }
+    .s-s-desc{
+        position: absolute;
+        left: 50%;
+        transform:translate(-50%, 0);
+        bottom: 15px;
+        .desc-list{
+            display: inline-block;
+            width: 100px;
+            height: 25px;
+            background: rgba(255,255,255,0.5);
+            line-height: 25px;
+            font-size: 14px;
+            text-align: center;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .active{
+            background: rgba(0, 0, 0, .5);
+            color: #fff;
+        }
+    }
+}

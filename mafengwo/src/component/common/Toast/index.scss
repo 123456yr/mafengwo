@@ -1,0 +1,26 @@
+.toast-box{
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    background: #FFDAB9;
+    color: #666;
+    border-radius: 4px;
+    a{
+        display: block;
+        height: 40px;
+        width: 100%;
+    }
+     .toast-icon{
+         display: inline-block;
+         width: 10px;
+         height: 10px;
+         margin-left: 10px;
+         background: url('/images/mfwask-2016sprite_v3.png') no-repeat 0 -592px;
+     }
+}
+.toast-box:hover{
+    background: #ddd;
+    .toast-icon{
+        background-position: 0 -620px !important;
+    }
+}

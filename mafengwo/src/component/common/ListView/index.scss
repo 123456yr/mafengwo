@@ -1,0 +1,40 @@
+.hd{
+    .list-title{
+            float: left;
+            font-size: 24px;
+            color: #fb6720;
+            width: 170px;
+        } 
+     
+}
+
+.list-view{
+    margin-top: 50px;
+    
+        .list-title{
+            width: auto;
+        }
+        .buy{
+            float: left;
+            color: #999;
+            font-size: 14px;
+            margin-left: 10px;
+            line-height: 40px;
+        }
+        .other{
+            float: right;
+            color: #999;
+            i{
+                background: url('/images/change.png') no-repeat; 
+                width: 14px;
+                height: 14px;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+        }
+    .list-content{
+        margin-right: -15px;
+    }
+}
+

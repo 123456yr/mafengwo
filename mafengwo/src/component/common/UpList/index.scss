@@ -1,0 +1,21 @@
+.list-page{
+    float: right;
+    line-height: 24px;
+    padding: 20px 0;
+    .count{
+        float: right;
+        color: #999;
+        margin-right: 10px;
+    }
+    .pagination{
+        float: right;
+        color: #666;
+       
+        a{
+            display: inline-block;
+            border-radius: 3px;
+            padding: 0 5px;
+            margin-right: 8px;
+        }
+    }
+}

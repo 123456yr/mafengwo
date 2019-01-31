@@ -1,0 +1,54 @@
+.sb-container{
+    overflow: hidden;
+    position: relative;
+    ul{
+        width: 500%;
+        
+        li{
+            width: 20%;
+            float: left;
+           } 
+            
+    }
+    .sb-img{
+        height: 140px;
+        overflow: hidden;
+        margin-bottom: 10px;
+            }
+    .sb-title{
+        height: 26px;
+        line-height: 26px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #333;
+    }
+    .sb-desc{
+        height: 60px;
+        line-height: 20px;
+        font-size: 14px;
+        color: #333;
+        overflow: hidden;
+    }
+        
+    .navigition{
+        position: absolute;
+        top: 120px;
+        right: 10px;
+        
+        
+        li{
+            width: 15px;
+            height: 8px;
+            border-radius: 4px;
+            background: #fff;
+            float: left;
+            margin-right:3px;
+        }
+        .nav-act{
+            background: #ff9d00;
+        }
+    }
+}

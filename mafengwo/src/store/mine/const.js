@@ -1,0 +1,4 @@
+const LOGIN='LOGIN'
+const CHANGE_CITY='CHANGE_CITY'
+
+export {LOGIN,CHANGE_CITY}

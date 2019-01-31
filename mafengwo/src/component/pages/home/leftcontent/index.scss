@@ -1,0 +1,59 @@
+
+    .left-container{
+        float: left;
+        width: 260px;
+       .asidebox{
+           margin-bottom: 30px;
+           .left-header{
+               height: 35px;
+               line-height: 35px;
+               margin-bottom: 12px;
+               .large{
+                   float: left;
+                   a{
+                       font-size: 18px;
+                       color: #333;
+                   }
+               }
+               .little{
+                   float: right;
+                   color: #999;
+               }
+           }
+       }
+       .gonglve{
+           .assess{
+               li{
+                   font-size: 14px;
+                   height: 28px;
+                   line-height: 28px;
+                   color: #333;
+                   overflow: hidden;
+                   text-overflow: ellipsis;
+                   white-space: nowrap;
+                   a{
+                       color: #ff9d00;
+                   }
+               }
+           }
+       }
+       .uptodate{
+           .sb-container{
+               .sb-img{
+                   height:auto;
+               }
+               .navigition{
+                   width: auto;
+                   top: 158px;
+                   bottom: auto;
+                   right: 15px;
+                   left: auto;
+                   
+                   li{
+                       opacity: 1;
+                   }
+               }
+           }
+       }
+    }
+

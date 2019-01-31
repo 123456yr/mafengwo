@@ -1,0 +1,220 @@
+.hd-box{
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    min-width: 1040px;
+    
+    .hd-text{
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        width: 535px;
+        height: 170px;
+        margin-top: -120px;
+        padding-right: 30px;
+        border-right: 7px solid #fff;
+        line-height: 2;
+        color: #fff;
+        text-align: left;
+        text-shadow: 0 2px 3px rgba(0,0,0,0.9);
+        h3{
+            font-size: 30px;
+            a{color: #fff;}
+        }
+        p{
+            font-size:16px;
+            a{
+                font-size: 18px;
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
+        h3:hover a{
+            color: #ff9d00;
+        }
+        .text:hover{ color: #ff9d00;}
+    }
+   .hd-img{
+       overflow: hidden;
+       width: 100%;
+       img{
+           margin-top: -71px;
+       }
+   }
+   
+           
+       .table-container{
+           width: 360px;
+           height: 102px;
+           background: rgba(0,0,0,0.4);
+           padding: 15px;
+           top: 50%;
+           margin-top: -60px;
+           left: 50%;
+           margin-left: -500px;
+           
+           h3{
+               font-size: 20px;
+               line-height: 1;
+               color: #fff;
+               margin-bottom: 15px;
+           }
+               .table-input{
+                  input{ 
+                      padding: 0 20px!important;
+                      width: 268px!important; 
+                      font-size: 18px!important;
+                      }
+               
+               }
+               .place{
+                   font-size: 14px;
+                   margin-top: 15px;
+                   line-height: 16px;
+                   a{
+                       color: #fff;
+                       padding-right: 10px;
+                   }
+                   a:hover{
+                       text-decoration: underline;
+                   }
+               }
+           }
+           .hd-icon{
+               position: absolute;
+               bottom: 20px;
+               right: 40px;
+               .showicon{
+                   float: left;
+                   margin-left: 15px;
+                   position: relative;
+                   .first{
+                       display: inline-block;
+                       width:25px;
+                       height: 25px;
+                       background: url('/images/place-sprites3.png') no-repeat;
+                       background-position: 0 0;
+                   }
+                   .text-hide{
+                       position: absolute;
+                       top: 0;
+                       left: 0;
+                       width: 0;
+                       overflow: hidden;
+                       color: #333;
+                       white-space: nowrap;
+                       span{
+                           border-radius: 5px;
+                           display: inline-block;
+                           height: 25px;
+                           line-height: 25px;
+                           padding: 0 10px;
+                           background: #fff;
+                           a{
+                               display: inline-block;
+                               white-space: nowrap;
+                           }
+                       }
+                       em{
+                           position: absolute;
+                           top: 8px;
+                           right: 0;
+                           width: 0;
+                           height: 0;
+                           border-left: 4px solid #fff;
+                           border-top: 4px solid transparent;
+                           border-bottom: 4px solid transparent;
+                           
+                       }
+                   }
+                   .two{
+                       display: inline-block;
+                       width: 25px;
+                       height: 25px;
+                       background: url('/images/place-sprites3.png') no-repeat;
+                       background-position: -30px 0;
+                   }
+                   .three{
+                       display: inline-block;
+                       width: 25px;
+                       background: url('/images/place-sprites3.png') no-repeat;
+                       background-position: -60px 0;
+                       color: #fff;
+                       text-align: center;
+                       line-height: 30px;
+                   }
+               }
+               .last{
+                       position: relative;
+                       
+                       i{
+                            vertical-align: middle;
+                           display: inline-block;
+                           background: url('/images/place-sprites3.png') no-repeat;}
+                       
+                       .four{
+                           border: 1px solid #fff;
+                           border-radius: 4px;
+                           text-align: center;
+                           height: 23px;
+                           width: 78px;
+                           line-height: 23px;
+                           display: inline-block;
+                           color: #fff;
+                           i{
+                               width: 15px;
+                               height: 14px;
+                               background-position: 0 -30px;
+                           }
+                       }
+                       .four:hover{
+                           text-decoration: underline;
+                       }
+                       .share{
+                           
+                           background: #fff;
+                           position: absolute;
+                           bottom: 30px;
+                           right: 0;
+                           height: 36px;
+                           border-radius: 5px;
+                           padding: 8px 10px;
+                           white-space: nowrap;
+                           a{
+                               text-align: center;
+                               line-height: 36px;
+                               width: 36px;
+                               height: 36px;
+                               border-radius: 5px;
+                               display: inline-block;
+                               margin-right: 12px;
+                               i{
+                                   width:26px;
+                                   height: 22px;
+                               }
+                           }
+                           .weibo{
+                               background: #d84c4c;
+                               i{
+                                   background-position: 0 -90px;
+                               }
+                           }
+                           .qq{
+                               background: #3f8bc0;
+                               i{
+                                   background-position: -30px -90px;
+                               }
+                           }
+                           .weixin{
+                               margin-right: 0;
+                               background: #73a64f;
+                               i{
+                                   background-position: -60px -90px;
+                               }
+                           }
+                           
+                       }
+                   }
+           }
+   
+}

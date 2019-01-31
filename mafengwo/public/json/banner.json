@@ -1,0 +1,15 @@
+{
+	"dateBanner":[
+			{ "id": 0, "src": "/picture/wkgbs1d8s0eaizoxaadhudzpwyk33.jpeg", "title":"鹰嘴豆与爱的漩涡" , "desc": "大爱不能靠知识，也不能靠教义，只能依靠生命的直觉体验"},
+			{ "id": 1, "src": "/picture/wkgbs1d8tf6abj2caacmlg9smlk15.jpeg", "title":"格鲁吉亚酒司令" , "desc": "谢尔盖告诉我，站起来的这个人就是“酒司令”，格鲁吉亚语称为“Tamada”，一般由年长或职位高或能喝酒的男人担当。"},
+			{ "id": 2, "src": "/picture/wkgbs1d8tjqaom22aaalduuxci410.jpeg", "title":"四谷怪谈" , "desc": "这么一个平和的地方，说早一点，却因为一个叫做阿岩的女鬼闻名全国，这就是人们口口相传的《四谷怪谈》了。"},
+			{ "id": 3, "src": "/picture/wkgbs1d8etwadevhaacsudmmgdg66.jpeg", "title":"远东飘散家之味" , "desc": "没错，如今这个城市所在的地方，自从清朝以来就被中国称为海参崴，直到1860年《中俄北京条约》的签订。"}
+		],
+	"glBanner":[
+		{ "id": 0, "src": "/picture/wKgBZ1m3WL2AGbvYAAHNn8YumW420.jpeg"},
+		{ "id": 1, "src": "/picture/wKgED1vr9xuADjk5AAWjRyklo-4124.png"},
+		{ "id": 2, "src": "/picture/wKgBZ1j4lV2AeFDJAAFAQnzrrk044.jpeg"},
+		{ "id": 3, "src": "/picture/wKgBZ1m3p0aAENn-AAa2xjc81AI321.png"},
+		{ "id": 4, "src": "/picture/wKgBZ1h4nkiAURQzAAHf0nrnc6I29.jpeg"}
+	]
+}

@@ -1,0 +1,218 @@
+.sales-aside{
+    width: 256px;
+    border: 2px solid #ff9d00;
+    background: #fff;
+    float: left;
+   position: relative;
+}
+
+.s-aside-list{
+    position:relative;
+    background: #fff;
+    height: 45px;
+    padding: 11px 20px 11px 50px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    h3{
+        font-size: 16px;
+        color: #333;
+        height: 24px;
+        line-height: 24px;
+        margin-bottom: 3px;
+        
+    }
+    p{
+        a{
+            color: #666;
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+    }
+    
+    .arrow-left{
+       right: 12px;
+    }
+    
+    span[class^='icon']{
+        float: left;
+        margin-left: -38px;
+        width: 30px;
+        height: 30px;
+        background: url('/images/global-icon4.png') no-repeat;
+    }
+    .icon-0{
+        background-position: 0 0!important;
+    }
+    .icon-1{
+        background-position: 0 -30px!important;
+    }
+    .icon-2{
+        background-position: 0 -60px!important;
+    }
+    .icon-3{
+        background-position: 0 -90px!important;
+    }
+    .icon-4{
+        background-position: 0 -120px!important;
+    }
+    .icon-5{
+        background-position: 0 -150px!important;
+    }
+    .icon-6{
+        background-position: 0 -180px!important;
+    }
+    
+    
+    
+}
+.s-aside-list>*{
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: -webkit-transform .3s ease-in-out .1s;
+    transition: -webkit-transform .3s ease-in-out .1s;
+}
+
+.hover {
+    z-index: 5;
+    margin-top: -2px;
+    border-top: 2px solid #ff9d00;
+    margin-bottom: -1px;
+    border-bottom: 2px solid #ff9d00;
+    margin-right: -2px;
+     .arrow-left{
+            right: 16px;
+            background-position: -40px 0;
+        }
+    
+}
+ 
+.hover>*{
+        -webkit-transform: translate(3px, 0);
+        transform: translate(3px, 0);
+}
+
+.s-aside-list:last-child{
+    border-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.s-aside-list:last-child:hover{
+    border-bottom: 0;
+}
+
+.aside-hide{
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: 256px;
+    border: 2px solid #ff9d00;
+    width: 739px;
+    height: auto;
+    min-height: 475px;
+    background: #fff;
+    z-index: 4;
+    .a-h-china{
+        padding: 30px 30px 20px;
+        line-height: 20px;
+        
+        dl{
+            padding-left: 48px;
+//          margin-right: -10px;
+            margin-bottom: 20px;
+            
+        }
+        dt{
+            width: 46px;
+            margin-left: -68px;
+            text-align: right;
+            font-size: 14px;
+            color: #333;
+            font-weight: bold;
+            float: left;
+            display: inline-block;
+            overflow:visible;
+            position: relative;
+            white-space: nowrap;
+            z-index: 6;
+        }
+        dd{
+            float: left;
+        }
+        .a-h-left, .a-h-right{
+            width: 320px;
+        }
+      
+    }
+    .a-h-right{ margin-left: 20px;}
+    .a-h-left, .a-h-right{
+        float: left;
+    }
+    dd{
+        margin-right: -10px;
+        span{
+            display: inline-block;
+            white-space: nowrap;
+        }
+        a{
+            float: left;
+            white-space: nowrap;
+            color: #333;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        i{
+            float: left;
+            width: 1px ;
+            height: 12px;
+            background: #ddd;
+            margin: 5px 10px 0;
+        }
+      }
+    
+    
+    
+    .a-h-country{
+    padding: 30px 30px 20px;
+    
+    .a-h-left{
+        width: 400px;
+    
+    dl{
+       dt{
+           font-size: 16px;
+           font-weight: bold;
+           color: #111;
+           border-bottom: 1px solid #ddd;
+           line-height: 30px;
+           height: 30px;
+           padding-bottom: 5px;
+       } 
+       dd{
+           line-height: 20px;
+           overflow: hidden;
+           margin-top: 10px;
+       }
+    }
+    }
+    .a-h-right{
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+            color: #111;
+        }
+        .type{
+            margin-top: 20px;
+           h3{
+              line-height: 24px;
+               font-size: 14px;
+               font-weight: bold;
+           }
+           p{
+               color: #666;
+           }
+        }
+    }
+}
+}
+
