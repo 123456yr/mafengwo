@@ -27,15 +27,18 @@ class UpList extends Component{
 	clickPage(e){
 		var target=e.target;
 		if(target.tagName==="A"){
-			
+			var all = target.parentNode.children;
 			var datamsg= target.getAttribute('data-msg');
+			var prevIndex = this.index;
 			if(isNaN(parseInt(datamsg))){
 				this.index=eval(this.index+datamsg+1);
 				if(this.index<= 0) return ;
 				if(this.index>= this.page) return;
+				all[this.index].classList.add('on');
+				all[prevIndex].classList.remove('on');
 				this.showNum();
 			}else{
-				var all=target.parentNode.children;
+				
 				for(var i=0; i<all.length; i++){
 					if(all[i].classList.contains('page')){
 						all[i].classList.remove('on');

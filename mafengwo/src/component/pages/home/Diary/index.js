@@ -17,7 +17,7 @@ class Diary extends Component{
 			data: []
 		}
 		this.num= 90;
-		this.scrolling=this.scrolling.bind(this)
+		// this.scrolling=this.scrolling.bind(this)
 		this.getDiary=this.getDiary.bind(this)
 		this.toDetail=this.toDetail.bind(this)
 		this.changeList=this.changeList.bind(this)
@@ -48,44 +48,45 @@ class Diary extends Component{
 		})
 	}
 	
-	scrolling(){
-		this.scroll=document.documentElement.scrollTop || document.body.scrollTop;
-		if(this.scroll>=this.el.offsetTop-48){
-			this.fixedTop();
-		}else{
-			this.bufixedTop()
-		}
-	}
+	// scrolling(){
+	// 	this.scroll=document.documentElement.scrollTop || document.body.scrollTop;
+	// 	if(this.scroll>=this.el.offsetTop-48){
+	// 		this.fixedTop();
+	// 	}else{
+	// 		this.bufixedTop()
+	// 	}
+	// }
 	
 	changeList(e){
 		var target=e.currentTarget;
 		$(target).addClass('active').siblings().removeClass('active');
 		let datamsg=$(target).attr('data-msg');
-		this.scrollTop(datamsg);
+		this.getDiary(datamsg)
+		// this.scrollTop(datamsg);
 	}
 	
-	bufixedTop(){
-		var target=$(this.el).find('.diary-tab');
-		if($(target).attr('class').indexOf('fixed')!==-1){
-			$(this.el).find('.diary-tab').removeClass('fixed')
-//			$(this.content).css('marginTop', 0)
-		}
-	}
+// 	bufixedTop(){
+// 		var target=$(this.el).find('.diary-tab');
+// 		if($(target).attr('class').indexOf('fixed')!==-1){
+// 			$(this.el).find('.diary-tab').removeClass('fixed')
+// 			$(this.content).css('marginTop', 0)
+// 		}
+// 	}
 	
-	fixedTop(){
-		var target=$(this.el).find('.diary-tab');
-		if($(target).attr('class').indexOf('fixed')===-1){
-			$(this.el).find('.diary-tab').addClass('fixed')
-//			$(this.content).css('marginTop', '48px')
-		}
-	}
+// 	fixedTop(){
+// 		var target=$(this.el).find('.diary-tab');
+// 		if($(target).attr('class').indexOf('fixed')===-1){
+// 			$(this.el).find('.diary-tab').addClass('fixed')
+// //			$(this.content).css('marginTop', '48px')
+// 		}
+// 	}
 	
-	scrollTop(datamsg){
-		$("html,body").animate({scrollTop: this.el.offsetTop-48 }, 800,()=>{
-			this.fixedTop();
-			this.getDiary(datamsg)
-		})
-	}
+	// scrollTop(datamsg){
+	// 	$("html,body").animate({scrollTop: this.el.offsetTop-48 }, 800,()=>{
+	// 		this.fixedTop();
+	// 		
+	// 	})
+	// }
 	
 	toDetail(id){
 		this.props.history.push(`/detail/${id}`);
